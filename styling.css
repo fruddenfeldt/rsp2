@@ -1,0 +1,63 @@
+
+
+:root {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid red 2px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-wrapper  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161925;
+    height: 200px;
+    width: 100vmax;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    padding-top: 100px;
+    height: 500px;
+    background-color: 23395B;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161925;
+    height: 100px;
+}
+
+header {
+    font-size: 50px;
+}
+
+.score-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 600px;
+    border: solid red 2px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 600px;
+    border: solid red 2px;
+}
