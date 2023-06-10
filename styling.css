@@ -28,16 +28,23 @@
     gap: 20px;
     justify-content: flex-start;
     padding-top: 100px;
-    height: 500px;
+    height: 400px;
     background-color: 23395B;
+    border: solid yellow 5px;
+}
+
+.optionWrapper {
+    display: flex;
+    flex-direction: row;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #161925;
+    background-color: rgb(1, 8, 18);
     height: 100px;
+    border: solid green 2px
 }
 
 header {
@@ -48,16 +55,40 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 30px;
     width: 600px;
     border: solid red 2px;
 }
 
+#scoreCounterText {
+    font-size: 20px;
+}
+
+.selectionWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#makeChoice {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
 .options {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: solid green 2px;
+    
+}
+
+button {
+    background-color: #161925;
+    border: none;
+    width: 100px;
     height: 100px;
-    width: 600px;
-    border: solid red 2px;
+    font-size: 70px;
+    border-radius: 50px;
 }
