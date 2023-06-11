@@ -5,7 +5,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid red 2px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -30,12 +29,12 @@
     padding-top: 100px;
     height: 400px;
     background-color: 23395B;
-    border: solid yellow 5px;
 }
 
 .optionWrapper {
     display: flex;
     flex-direction: row;
+    gap: 50px;
 }
 
 .footer {
@@ -44,7 +43,6 @@
     align-items: center;
     background-color: rgb(1, 8, 18);
     height: 100px;
-    border: solid green 2px
 }
 
 header {
@@ -57,7 +55,6 @@ header {
     align-items: center;
     height: 30px;
     width: 600px;
-    border: solid red 2px;
 }
 
 #scoreCounterText {
@@ -80,7 +77,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid green 2px;
+   // border: solid green 2px;
     
 }
 
@@ -92,3 +89,50 @@ button {
     font-size: 70px;
     border-radius: 50px;
 }
+
+.paperAnimation {
+    transform: rotate(90deg) scale(1.5);
+    -webkit-transition: -webkit-transform 0.2s ease-in;
+    background-color: green;
+
+}
+
+.rockAnimation {
+    transform: scale(1.5);
+    -webkit-transition: -webkit-transform 0.2s ease-in;
+    background-color: red;
+}
+
+.scissorAnimation {
+    transform: scale(1.5);
+    -webkit-transition: -webkit-transform 0.2s ease-in;
+    background-color: blue;
+}
+
+
+/*
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(15deg); }
+   95% { transform: rotate(-15deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.scissorAnimation {
+    animation: wiggle 2.5s;
+}
+*/ 
+
+
+
+
+ 
+/* DEBUGGING BORDERS 
+
+
+
+:root, .top-wrapper, main, .options {
+    border: solid red 2px;
+}
+
